@@ -10,7 +10,7 @@ Dicas para nomes de variáveis:
 */
 
 let primeiroNumero = 20;
-let segundoNumero = 30;
+let segundoNumero = 2;
 
 // Adição:              +
 // Subtração:           -
@@ -28,5 +28,18 @@ console.log('Resto da Divisão =', primeiroNumero % segundoNumero);
 
 // PRECEDÊNCIA DE OPERADORES:
 
+/*
+1º Parênteses Internos;
+2º Potência e Raiz;
+3º Multiplicação e Divisão;
+4º Adição e Subtração.
+*/
+
+console.log(3 + 7 * 3);         // Neste exemplo foi realizado a multiplicação e depois a soma.
+console.log((3 + 7) * 3);       // Neste exemplo foi realizado a soma e depois a multiplicação, devido aos ().
+
 
 // BIBLIOTECA MATH:
+console.log('O numero de PI é', Math.PI)                    // Função que apresenta o valor de PI.
+console.log('A Raiz Quadrada de 16 é', Math.sqrt(16))       // Função que calcula a Raiz Quadrada, neste caso do número 16.
+
