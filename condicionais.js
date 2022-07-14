@@ -9,7 +9,6 @@ if (idade >= 18) {
     console.log('Você é menor de idade!');
 }
 
-
 // Se media >= 7, Aprovado.
 // Se media < 7 e media >= 5, Recuperação.
 // Se media < 5,, Reprovado.
