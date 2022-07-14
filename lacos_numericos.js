@@ -12,13 +12,14 @@ console.log('Sua média é', media);
 
 // O problema: Quero que você pegue 3 notas de um aluno e calcule a média. 2º Modo de Resolver:
 const input = require('readline-sync');
+console.clear()
 let nota;
 let soma = 0;
 for (let i = 1; i <= 3; i++) {
-    nota = Number(input.question(`Informe a nota${i} do aluno: `));
+    nota = Number(input.question(`Informe a nota ${i} do aluno: `));
     soma = soma + nota;
 }
-
+console.log(`A média do aluno é ${soma / 3}.`)
 // Acumuladores:
 /*
 let acumulador = 0;
